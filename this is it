@@ -6,7 +6,7 @@ from urllib.parse import urlparse, parse_qs
 st.set_page_config(page_title="🎬 YouTube Window", layout="centered")
 
 st.title("🎬 YouTube Window: Watch & Explore")
-st.caption("Paste a YouTube URL to see metadata and watch the video inside the app. All videos stay in the house!")
+st.caption("Paste a YouTube URL to see metadata and watch the video inside the app. !")
 
 # ---------- HELPERS ----------
 def get_video_id(url):
